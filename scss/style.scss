@@ -1,10 +1,21 @@
+//@import "variables.scss";
+
 $primary-color: #de56de;
 
 body {
     color: $primary-color;
     font-size:20px;
+    background-image: url("http://localhost:3000/imgFiles/lp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #hello{
     color: $primary-color;    
 }
+
+#brandDiv {
+//	background-image: $brandLogo;
+//	color: $headingColor;
+}
+
